@@ -1,0 +1,103 @@
+body{
+    background-image: url(Images/AnfieldRoadStand_01_trans++900leoZVuq6ru6F43OqP_qmu_5TrYCayWOnMLHAQ2N0.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;    
+}
+
+main{
+    font-family: 'Lato', sans-serif;
+}
+
+
+#info{
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+#description{
+    font-style: italic;
+    text-shadow: black;
+    font-weight: 300;
+    margin-bottom: 3%;
+
+}
+
+.survey-form-container{
+    display: block;
+    background-color: #003366ea;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    padding: 2%;
+    padding-right: 1%;
+    border-style: hidden;
+    border-radius: 0.6%;
+}
+
+#survey-form{
+    font-size: 21px;
+    font-weight: 400;
+    color: #f0f0f0ee;
+    text-shadow: black;
+    
+}
+
+
+.form-control{
+    
+    font-weight: 400;
+    font-size: 17px;
+    outline-color: rgb(13, 231, 166);
+    width: 95%; 
+    padding: 8px 8px;
+    border: hidden;
+    border-radius: 4px;
+    margin: 8px 0 15px 0;
+}
+
+#dropdown{
+    width: 97.5%;
+}
+
+.radio{
+    position: relative;
+    top: 3px;
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 10px;
+}
+
+.checkbox{
+    position: relative;
+    top: 3px;
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 10px;
+}
+
+#comment{
+    font-size: 16px;
+    width: 94.5%; 
+    padding: 8px 8px;
+    border: hidden;
+    border-radius: 4px;
+    margin: 8px 0 15px 0;
+    
+
+}
+
+#submit{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.938);
+    width: 96.8%;
+    padding: 13px 8px;
+    background-color: rgb(55, 175, 101);
+    border: hidden;
+    border-radius: 4px;
+    margin: 8px 0 15px 0;
+}
+
+

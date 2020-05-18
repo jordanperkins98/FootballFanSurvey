@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <title>Survey</title>
+</head>
+<body>
+    <main>
+        <header id="info">
+            <h1 id="title">Football Fan Survey Form</h1>
+            <p id="description">
+                Thank you for taking the time to fill in this survey
+            </p>
+        </header>
+        <div class="survey-form-container">
+            <form id="survey-form">
+                <div class="form-group">
+                    <label id="name-label" for="name">Name</label><br>
+                    <input type="text" placeholder="Enter your name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label id="email-label" for="email">Email</label><br>
+                    <input type="email" placeholder="Enter your Email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label id="number-label" for="age">Age (Optional)</label> <br>
+                    <input id="number" type="number" min="13" max="55" class="form-control" placeholder="Age">
+                </div>
+                <div class="form-group">
+                    <label>Gender</label><br>
+                    <select id="dropdown" class="form-control" required>
+                        <option disabled selected value>Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="preferNo">Prefer not to say</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p>What league does the team you support play in?</p>
+                    <label><input class="radio"type="radio" name="league" value="premier-league" checked>Premier League</label><br>
+                    <label><input class="radio" type="radio" name="league" value="championship">Championship</label><br>
+                    <label><input class="radio" type="radio" name="league" value="league1">League 1</label><br>
+                    <label><input class="radio" type="radio" name="league" value="league2">League 2</label><br>
+                    <label><input class="radio" type="radio" name="league" value="league-not-listed">League not listed</label><br>
+                </div>
+                <div class="form-group">
+                    <p>How often do you watch a game at their stadium?</p>
+                    <label><input class="checkbox" type="checkbox" value="all">All games per season</label><br>
+                    <label><input class="checkbox" type="checkbox" value="overhalf">Over half the games per season</label><br>
+                    <label><input class="checkbox" type="checkbox" value="ocasionally">Ocasionally</label><br>
+                    <label><input class="checkbox" type="checkbox" value="less-than-5">less than 5 games a season</label><br>
+                    <label><input class="checkbox" type="checkbox" value="tv">Not often</label><br>
+                    <label><input class="checkbox" type="checkbox" value="never">Never watched them at the stadium</label><br>
+                </div>
+                <div class="form-group">
+                    <p>What age and why did you start supporting your team? (Optional)</p>
+                    <textarea id="comment" placeholder="Enter your answer here" rows="8" cols="40"></textarea>
+                </div>
+                <div class="form-group">
+                    <br>
+                    <input id="submit" type="submit" value="Submit Survey">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
